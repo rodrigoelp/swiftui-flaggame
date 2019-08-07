@@ -28,6 +28,8 @@
 		DC5F339322FAEA58008D98E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC5F339922FAEC55008D98E4 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		DC5F339B22FAED9C008D98E4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DC5F339D22FAF00F008D98E4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DC5F339E22FAF00F008D98E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,8 @@
 		DC5F337922FAEA56008D98E4 = {
 			isa = PBXGroup;
 			children = (
+				DC5F339D22FAF00F008D98E4 /* LICENSE */,
+				DC5F339E22FAF00F008D98E4 /* README.md */,
 				DC5F338422FAEA56008D98E4 /* Flag Game */,
 				DC5F338322FAEA56008D98E4 /* Products */,
 			);

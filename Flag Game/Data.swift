@@ -7,6 +7,12 @@ struct Country: Codable {
     let name: String
 }
 
+extension Country {
+    var imageName: String {
+        get { return code.lowercased() }
+    }
+}
+
 func load<T: Decodable>(_ fileName: String, as type: T.Type = T.self) -> T {
     let data: Data
     
@@ -27,4 +33,4 @@ func load<T: Decodable>(_ fileName: String, as type: T.Type = T.self) -> T {
     }
 }
 
-let countries: [Country] = load("Data.json")
+let countriesData: [Country] = load("Data.json")
