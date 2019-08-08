@@ -4,10 +4,6 @@
         "name": "Afghanistan"
     },
     {
-        "code": "AX",
-        "name": "\u00c5land Islands"
-    },
-    {
         "code": "AL",
         "name": "Albania"
     },
@@ -16,20 +12,12 @@
         "name": "Algeria"
     },
     {
-        "code": "AS",
-        "name": "American Samoa"
-    },
-    {
         "code": "AD",
         "name": "Andorra"
     },
     {
         "code": "AO",
         "name": "Angola"
-    },
-    {
-        "code": "AI",
-        "name": "Anguilla"
     },
     {
         "code": "AQ",
@@ -106,10 +94,6 @@
     {
         "code": "BO",
         "name": "Bolivia, Plurinational State of"
-    },
-    {
-        "code": "BQ",
-        "name": "Bonaire, Sint Eustatius and Saba"
     },
     {
         "code": "BA",
@@ -304,16 +288,8 @@
         "name": "France"
     },
     {
-        "code": "GF",
-        "name": "French Guiana"
-    },
-    {
         "code": "PF",
         "name": "French Polynesia"
-    },
-    {
-        "code": "TF",
-        "name": "French Southern Territories"
     },
     {
         "code": "GA",
@@ -382,10 +358,6 @@
     {
         "code": "HT",
         "name": "Haiti"
-    },
-    {
-        "code": "HM",
-        "name": "Heard Island and McDonald Islands"
     },
     {
         "code": "VA",
@@ -712,10 +684,6 @@
         "name": "Portugal"
     },
     {
-        "code": "PR",
-        "name": "Puerto Rico"
-    },
-    {
         "code": "QA",
         "name": "Qatar"
     },
@@ -754,10 +722,6 @@
     {
         "code": "MF",
         "name": "Saint Martin (French part)"
-    },
-    {
-        "code": "PM",
-        "name": "Saint Pierre and Miquelon"
     },
     {
         "code": "VC",
@@ -800,10 +764,6 @@
         "name": "Singapore"
     },
     {
-        "code": "SX",
-        "name": "Sint Maarten (Dutch part)"
-    },
-    {
         "code": "SK",
         "name": "Slovakia"
     },
@@ -826,10 +786,6 @@
     {
         "code": "GS",
         "name": "South Georgia and the South Sandwich Islands"
-    },
-    {
-        "code": "SS",
-        "name": "South Sudan"
     },
     {
         "code": "ES",
