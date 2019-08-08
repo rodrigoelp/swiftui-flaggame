@@ -2,14 +2,16 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
-    var countries = countriesData
+    @State private var countries = countriesData
         .shuffled()
         .enumerated()
         .filter({ $0.offset < 3 })
         .map({ $0.element })
     
-    var answerIndex = Int.random(in: 0...2)
+    @State private var answerIndex = Int.random(in: 0...2)
     
     @State private var score = 0
     @State private var showAlert = false
@@ -18,7 +20,11 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
                 VStack(alignment: .center, spacing: 8) {
-                    Text("Which flag belongs to: \(countries[answerIndex].name)")
+                    Text("Which flag belongs to:")
+                    Text(countries[answerIndex].name)
+                        .font(.largeTitle)
+                        .padding(.bottom, 24)
+                    
                     ForEach(countries, id: \Country.code) { country in
                         country.image
                             .border(Color.black, width: 2)
@@ -30,7 +36,7 @@ struct ContentView: View {
                 .navigationBarTitle(Text("Score: \($score.value)"))
                 .alert(isPresented: $showAlert) {
                     Alert(title: Text($alertTitle.value), dismissButton: .default(Text("Continue")))
-                }
+                }//.onDisappear(perform: { self.shuffleIt() })
         }
     }
     
@@ -44,6 +50,19 @@ struct ContentView: View {
             alertTitle = "Close but not cigar 😕"
         }
         showAlert = true
+        shuffleIt()
+    }
+    
+    func shuffleIt() {
+        countries = countriesData
+        .shuffled()
+        .enumerated()
+        .filter({ $0.offset < 3 })
+        .map({ $0.element })
+        
+        answerIndex = Int.random(in: 0...2)
+        
+        print("It came here...")
     }
 }
 
